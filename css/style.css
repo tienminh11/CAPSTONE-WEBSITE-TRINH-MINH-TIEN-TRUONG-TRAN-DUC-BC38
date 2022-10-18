@@ -1,9 +1,111 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box; 
-    font-family: 'Nunito', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
 }
-h1 h2 h3 h4 h5 h6{
-    color: #2c3038;
+h1 h2 h3 h4 h5 h6 {
+  color: #2c3038;
+}
+p {
+  color: #5a5a5a !important;
+}
+a {
+  color: #5a5a5a !important;
+}
+nav {
+  margin: 20px 0;
+}
+/* header{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 10;
+} */
+.nav-link.active {
+  color: #dc4f72 !important;
+}
+.container {
+  max-width: 1200px;
+}
+.container .navbar .navbar-brand {
+  color: #dc4f72 !important;
+  letter-spacing: -1px;
+}
+.container .btn {
+  margin: 0 30px !important;
+  color: #dc4f72;
+  border-color: #dc4f72;
+}
+.container .btn:hover {
+  background-color: #dc4f72;
+  color: #ffffff;
+  border-color: #dc4f72;
+}
+.container .nav-link:hover {
+  color: #dc4f72 !important;
+}
+.container .line {
+  background-color: #dc4f72;
+  width: 0;
+  height: 2px;
+  transition-property: width;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+  transition-delay: 0;
+}
+.container .line-page {
+  background-color: #dc4f72;
+  width: 0%;
+  height: 2px;
+  transition: all 0.5s;
+}
+.container .navbar-nav li:hover .line {
+  width: 20px;
+}
+.container .dropdown-menu li:hover .line-page {
+  width: 20px;
+}
+.container .nav-link {
+  padding: 0 !important;
+}
+.container .dropdown-item {
+  padding: 0 !important;
+}
+.container .dropdown-menu li {
+  margin-bottom: 10px;
+  padding: 0 30px 0 10px;
+  /* padding: 0 20px 10px; */
+}
+.container .dropdown-menu {
+  padding-top: 22px;
+  transform: translate(-28%, 0);
+}
+.footer {
+    margin-top: 50px;
+  max-width: 1280px;
+}
+.footer .footer-content {
+  width: 85%;
+  margin: 0 auto;
+}
+.footer .footer-content .title .contact0 p{
+    font-size: 17px;
+}
+.footer .footer-content .title .contact0 a {
+  color: #000000 !important;
+  text-decoration: none;
+}
+.footer .title {
+  display: flex;
+  justify-content: space-between;
+}
+.footer .footer-content .title .contact a{
+padding: 0 20px;
+color: #000000 !important;
+transition: 0.3s;
+}
+.footer .footer-content .title .contact a:hover{
+    color: #dc4f72 !important;
 }
