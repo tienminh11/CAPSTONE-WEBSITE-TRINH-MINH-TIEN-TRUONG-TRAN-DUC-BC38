@@ -2,7 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Nunito", sans-serif;
+  font-family:"Segoe UI", "Helvetica Neue", sans-serif;
+  font-family: 'Nunito', sans-serif;
 }
 h1 h2 h3 h4 h5 h6 {
   color: #2c3038;
@@ -32,11 +33,14 @@ nav {
 .container .navbar .navbar-brand {
   color: #dc4f72 !important;
   letter-spacing: -1px;
+  font-weight: 700;
+  transform: translate(-20%, 0);
 }
 .container .btn {
   margin: 0 30px !important;
   color: #dc4f72;
   border-color: #dc4f72;
+  transform: translate(20%, 0);
 }
 .container .btn:hover {
   background-color: #dc4f72;
@@ -82,16 +86,225 @@ nav {
   padding-top: 22px;
   transform: translate(-28%, 0);
 }
-.footer {
-    margin-top: 50px;
-  max-width: 1280px;
+.sec0 {
+  background-image: linear-gradient(to right, #fff, rgba(255, 255, 255, 0.9)),
+    url(../img/banner.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
 }
-.footer .footer-content {
+.intro0 {
+  max-width: 1200px;
+  width: 80%;
+  margin: 0 auto;
+}
+.intro0 .title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.intro0 .title .content0 {
+  padding: 0 20px;
+}
+.intro0 .title .content0 h1 {
+  font-weight: 700;
+  font-size: 50px;
+  margin-right: 30px;
+}
+.intro0 .title .content0 p {
+  font-size: 22px;
+  margin-right: 30px;
+  margin: 30px 0;
+}
+.intro0 .title .content0 button {
+  padding: 14px 33px;
+  font-size: 20px;
+  border: 1px solid #dc4f72;
+  background-color: #ffffff;
+  color: #dc4f72;
+  border-radius: 7px;
+  font-weight: 700;
+}
+.intro0 .title .content0 img {
+  max-width: 100%;
+  height: auto;
+}
+.sec1 {
+  padding: 65px 0;
+}
+.sec1 .intro1 {
+  width: 75%;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+.intro1 .main .title {
+  text-align: center;
+  margin: 70px 0;
+}
+.sec1 .intro1 .main .title.title1 {
+  max-width: 60%;
+  margin: 0 auto;
+}
+.sec1 .intro1 .main .title.title1 h3 {
+  font-size: 50px;
+  font-weight: 700;
+}
+.sec1 .intro1 .main .title.title1 .sub-title {
+  font-weight: 650;
+  color: #dc4f72 !important;
+}
+.sec1 .intro1 .main .title .row .col {
+  border: 1px solid #f7f9fc;
+  padding: 40px;
+  transition: all 0.4s;
+  cursor: pointer;
+}
+.sec1 .intro1 .main .title .row .col h4 {
+  font-weight: 700;
+  margin: 20px 0;
+}
+.sec1 .intro1 .main .title .row .col:hover {
+  transform: translateY(-5%);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.09);
+  border: 1px solid #eee;
+}
+
+.sec2 .intro2 {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 80%;
+}
+.sec2 .intro2 .main .title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sec2 .intro2 .main .title .content1 {
+  padding: 0 40px 0 15px;
+}
+.sec2 .intro2 .main .title .content1 .sub-title {
+  color: #dc4f72 !important;
+  font-weight: 700;
+  margin: 0;
+}
+.sec2 .intro2 .main .title .content1 h3 {
+  font-weight: 700;
+  font-size: 40px;
+}
+.sec2 .intro2 .main .title .content1 .text{
+  margin: 25px 0;
+}
+.sec2 .intro2 .main .title .content1 button{
+  padding: 15px 30px;
+  border: none;
+  background-color: #dc4f72;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 15px;
+  border-radius: 5px;
+  transition: all 0.4s;
+}
+.sec2 .intro2 .main .title .content1 button:hover{
+  background-color: #d62f58;
+}
+.sec2 .intro2 .main .title .content2 {
+  padding: 0 15px 0 40px;
+}
+.sec2 .intro2 .main .title img {
+  width: 35rem;
+  transition: all 0.4s;
+  border-radius: 5px;
+  box-shadow:  0 0.5rem 1rem rgb(0 0 0 / 25%)
+}
+.sec2 .intro2 .main .title img:hover{
+  transform: translateY(-5%);
+ box-shadow:  0 0.5rem 1rem rgb(0 0 0 / 25%);
+}
+
+.sec3{
+  padding: 60px 0;
+}
+ .intro3{
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 80%;
+}
+.intro3 .main .row .col{
+  margin: 10px 22px;
+  box-shadow: 1px 5px 6px rgba(196, 196, 196, 0.4);
+  border-radius: 2px;
+  transition: all 0.5s;
+  padding: 20px;
+}
+.intro3 .main .row .col:hover{
+  box-shadow: 1px 5px 6px rgba(196, 196, 196, 0.8);
+  transform: translateY(-5%);
+}
+.intro3 .main .row .col .sub-title{
+  font-size: 22px ;
+  color: #000000 !important;
+  font-weight: 700;
+}
+.intro3 .main .row .col h1{
+  font-weight: 700 ;
+  color: #dc4f72;
+  font-size: 55px;
+  line-height: 4.4rem;
+}
+
+.sec4{
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.33)), url(../img/bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.intro4{
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 80%;
+  padding: 30px 0;
+}
+.intro4 .main{
+  margin: 30px 0;
+}
+.intro4 .main .title{
+  padding: 40px 0;
+  max-width: 600px;
+}
+.intro4 .main .title h4{
+  font-size: 30px;
+  color: #ffffff;
+  font-weight: 700;
+}
+.intro4 .main .title p{
+  color: #ffffff !important;
+  font-size: 18px;
+  margin: 33px 0;
+}
+.intro4 .main .title button{
+  border: none;
+  padding: 16px 33px;
+  font-weight: 700;
+  border-radius: 5px;
+}
+
+
+
+
+/* FOOTER */
+footer {
+  margin-top: 40px;
+}
+.footer {
+  max-width: 1200px;
   width: 85%;
   margin: 0 auto;
 }
-.footer .footer-content .title .contact0 p{
-    font-size: 17px;
+.footer .footer-content .title .contact0 p {
+  font-size: 17px;
+  margin-bottom: 0 !important;
 }
 .footer .footer-content .title .contact0 a {
   color: #000000 !important;
@@ -100,12 +313,13 @@ nav {
 .footer .title {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
-.footer .footer-content .title .contact a{
-padding: 0 20px;
-color: #000000 !important;
-transition: 0.3s;
+.footer .footer-content .title .contact a {
+  padding: 0 20px;
+  color: #000000 !important;
+  transition: 0.3s;
 }
-.footer .footer-content .title .contact a:hover{
-    color: #dc4f72 !important;
+.footer .footer-content .title .contact a:hover {
+  color: #dc4f72 !important;
 }
