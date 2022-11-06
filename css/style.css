@@ -17,6 +17,7 @@ a {
 nav {
   margin: 20px 0;
 }
+/* HEADER */
 /* header{
     position: fixed;
     left: 0;
@@ -86,6 +87,7 @@ nav {
   padding-top: 22px;
   transform: translate(-28%, 0);
 }
+ /* INTRODUCE 0  */
 .sec0 {
   background-image: linear-gradient(to right, #fff, rgba(255, 255, 255, 0.9)),
     url(../img/banner.jpg);
@@ -130,6 +132,7 @@ nav {
   max-width: 100%;
   height: auto;
 }
+ /* INTRODUCE 1  */
 .sec1 {
   padding: 65px 0;
 }
@@ -159,6 +162,8 @@ nav {
   padding: 40px;
   transition: all 0.4s;
   cursor: pointer;
+  background-color: #f7f9fc;
+  margin: 0 20px;
 }
 .sec1 .intro1 .main .title .row .col h4 {
   font-weight: 700;
@@ -169,7 +174,11 @@ nav {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.09);
   border: 1px solid #eee;
 }
-
+ /* INTRODUCE 2  */
+.sec2{
+  padding: 60px 0;
+  background-color: #f7f9fc;
+}
 .sec2 .intro2 {
   max-width: 1200px;
   margin: 0 auto;
@@ -221,8 +230,9 @@ nav {
   transform: translateY(-5%);
   box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 25%);
 }
-
+ /* INTRODUCE 3  */
 .sec3 {
+  background-color: #f7f9fc;
   padding: 60px 0;
 }
 .intro3 {
@@ -252,7 +262,7 @@ nav {
   font-size: 55px;
   line-height: 4.4rem;
 }
-
+ /* INTRODUCE 4  */
 .sec4 {
   background-image: linear-gradient(
       to right,
@@ -294,7 +304,7 @@ nav {
   font-weight: 700;
   border-radius: 5px;
 }
-
+ /* INTRODUCE 5  */
 .intro5 {
   width: 80%;
   margin: 30px auto;
@@ -405,7 +415,10 @@ nav {
   transform: translateY(-2%);
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.09);
 }
-
+ /* INTRODUCE 6  */
+.sec6{
+  background-color: #f7f9fc;padding: 40px 0;
+}
 .intro6 {
   width: 80%;
   margin: 0 auto;
@@ -454,10 +467,7 @@ nav {
 .accordion-button:focus {
   box-shadow: 0 0 0 rgb(255, 255, 255) !important;
 }
-section{
-  margin: 40px 0;
-}
-
+ /* INTRODUCE 7  */
 .intro7 {
   width: 80%;
   margin: 0 auto;
@@ -539,7 +549,7 @@ section{
   background-color: #d62f58;
   color: #ffffff;
 }
-
+ /* INTRODUCE 8  */
 .intro8 {
   width: 80%;
   margin: 0 auto;
@@ -565,9 +575,7 @@ section{
   grid-template-columns: auto 1fr;
   background-color: #ffffff;
 }
-.intro8 .main .info .row .col.info1 .test
-
-
+ /* INTRODUCE 9  */
 .intro9 {
   width: 80%;
   margin: 0 auto;
@@ -613,12 +621,18 @@ color: #ffffff;
 .intro9 .main .btn .btn-2:hover{
   background-color: #d62f58;
 }
+ /* INTRODUCE 10  */
+ .sec10{
+  background-color: #F7F9FC;
+  padding-top: 10px;
+}
+
 .intro10 {
   width: 80%;
   margin: 0 auto;
   max-width: 1200px;
   margin-top: 90px;
-  background-color: #F7F9FC;
+ 
   margin-bottom: 30px;
 }
 .intro10 .main .row .col h4{
@@ -662,7 +676,8 @@ hr{
 
 /* FOOTER */
 footer {
-  margin-top: 40px;
+  background-color: #f7f9fc;
+  padding: 30px 0;
 }
 .footer {
   max-width: 1200px;
