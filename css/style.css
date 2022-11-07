@@ -30,6 +30,7 @@ nav {
 }
 .container {
   max-width: 1200px;
+  width: 90%;
 }
 .container .navbar .navbar-brand {
   color: #dc4f72 !important;
@@ -627,12 +628,13 @@ color: #ffffff;
   padding-top: 10px;
 }
 
-.intro10 {
+footer {
+  background-color: #f7f9fc;
+  padding: 30px 0;
   width: 80%;
   margin: 0 auto;
   max-width: 1200px;
   margin-top: 90px;
- 
   margin-bottom: 30px;
 }
 .intro10 .main .row .col h4{
@@ -675,10 +677,6 @@ hr{
 }
 
 /* FOOTER */
-footer {
-  background-color: #f7f9fc;
-  padding: 30px 0;
-}
 .footer {
   max-width: 1200px;
   width: 85%;
@@ -705,3 +703,16 @@ footer {
 .footer .footer-content .title .contact a:hover {
   color: #dc4f72 !important;
 }
+@media screen and (max-width: 1200px)
+@media screen and (max-width: 992px)
+@media screen and (max-width: 768px)
+@media screen and (max-width: 576px)
+
+@media screen and (max-width: 991px){
+.navbar-nav {
+    float: left;
+    text-align: center;
+    width: 100%;
+    padding: 20px 0;}}
+
+    @media screen and (max-width: 992px)
