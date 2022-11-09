@@ -558,3 +558,28 @@ footer {
 .footer .footer-content .title .contact a:hover {
   color: #dc4f72 !important;
 }
+@media screen and (max-width: 1200px){
+  .container{
+max-width: 1200px;
+  padding-right: 25px;
+  padding-left: 25px;
+  margin-right: auto;
+  margin-left: auto;
+}
+}
+@media screen and (max-width: 992px){
+
+  }
+  .footer .footer-content{
+      text-align: center;
+}   
+}
+@media screen and (max-width: 768px){
+.footer .footer-content{
+  text-align: center;
+}
+.col{
+  margin: 10px 0;
+}
+}
+@media screen and (max-width: 576px){}
