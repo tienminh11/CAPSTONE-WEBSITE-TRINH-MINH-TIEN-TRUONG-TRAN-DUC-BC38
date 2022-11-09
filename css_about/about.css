@@ -18,13 +18,19 @@ nav {
   margin: 20px 0;
 }
 /* HEADER */
-/* header{
-      position: fixed;
-      left: 0;
-      right: 0;
-      top: 0;
-      z-index: 10;
-  } */
+header {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 10;
+  box-shadow: 0 3px 9px rgb(0 0 0 / 5%);
+  background-color: #ffffff;
+}
+.empty {
+  padding: 40px 0;
+  margin-bottom: 40px;
+}
 .nav-link.active {
   color: #dc4f72 !important;
 }
@@ -92,23 +98,27 @@ nav {
   padding-top: 22px;
   transform: translate(-28%, 0);
 }
-.page-wrapper{
+.page {
+  background-color: #f7f9fc;
+}
+.page-wrapper {
   max-width: 1250px;
   width: 85%;
   margin: 0 auto;
+  padding: 20px 0;
 }
-.page-wrapper a{
+.page-wrapper a {
   color: #dc4f72 !important;
   text-decoration: none;
   transition: all 0.3s;
 }
-.page-wrapper a:hover{
+.page-wrapper a:hover {
   text-decoration: underline;
 }
-.page-wrapper p{
+.page-wrapper p {
   display: inline;
 }
-.page-wrapper span{
+.page-wrapper span {
   font-size: 12px;
 }
 
@@ -372,7 +382,7 @@ nav {
   height: 250px;
   overflow: hidden;
 }
-.team .container .row .col-12:hover .img{
+.team .container .row .col-12:hover .img {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.09);
 }
 .team .container .row .col-12 .img img {
@@ -390,29 +400,29 @@ nav {
 .team .container .row .col-12:hover .info {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.09);
 }
-.team .container .row .col-12 .info i{
-margin-right: 20px;
-width: 35px;
-height: 35px;
-color: #ffffff !important;
-font-size: 12px;
-line-height: 33px;
-text-align: center;
-border-radius: 20px;
+.team .container .row .col-12 .info i {
+  margin-right: 20px;
+  width: 35px;
+  height: 35px;
+  color: #ffffff !important;
+  font-size: 12px;
+  line-height: 33px;
+  text-align: center;
+  border-radius: 20px;
 }
-.team .container .row .col-12 .info .fa-facebook-f{
+.team .container .row .col-12 .info .fa-facebook-f {
   background-color: #0d5fa8;
 }
-.team .container .row .col-12 .info .fa-twitter{
+.team .container .row .col-12 .info .fa-twitter {
   background-color: #1198ec;
 }
 .team .container .row .col-12.col-lg-3 {
   margin-top: 30px;
 }
-.team .container .row .col-12 .info h4{
+.team .container .row .col-12 .info h4 {
   font-weight: 700;
 }
-.team .container .row .col-12 .info h4:hover{
+.team .container .row .col-12 .info h4:hover {
   cursor: pointer;
   color: #dc4f72 !important;
 }
@@ -429,17 +439,17 @@ border-radius: 20px;
   text-align: center;
   margin: 0 auto;
 }
-.intro9 .main .title h1{
+.intro9 .main .title h1 {
   font-size: 45px;
   font-weight: 700;
 }
-.intro9 .main .btn{
+.intro9 .main .btn {
   display: flex;
- align-items: center;
- justify-content: center;
- margin:30px 0 ;
+  align-items: center;
+  justify-content: center;
+  margin: 30px 0;
 }
-.intro9 .main .btn .btn-1{
+.intro9 .main .btn .btn-1 {
   margin: 0 20px;
   padding: 15px 30px;
   background-color: #ffffff;
@@ -448,11 +458,11 @@ border-radius: 20px;
   border-radius: 5px;
   transition: all 0.5s;
 }
-.intro9 .main .btn .btn-1:hover{
-background-color: #d62f58;
-color: #ffffff;
+.intro9 .main .btn .btn-1:hover {
+  background-color: #d62f58;
+  color: #ffffff;
 }
-.intro9 .main .btn .btn-2{
+.intro9 .main .btn .btn-2 {
   padding: 15px 30px;
   background-color: #dc4f72;
   color: #ffffff;
@@ -460,7 +470,7 @@ color: #ffffff;
   border-radius: 5px;
   transition: all 0.5s;
 }
-.intro9 .main .btn .btn-2:hover{
+.intro9 .main .btn .btn-2:hover {
   background-color: #d62f58;
 }
 
