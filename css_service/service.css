@@ -60,7 +60,7 @@
     margin: 0 30px !important;
     color: #dc4f72;
     border-color: #dc4f72;
-    transform: translate(20%, 0);
+    transform: translate(40%, 0);
   }
   .container .btn:hover {
     background-color: #dc4f72 !important;
