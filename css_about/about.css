@@ -27,9 +27,8 @@ header {
   background-color: #ffffff;
 }
 .empty {
-  padding: 40px 0;
+  padding: 60px 0;
   background-color: #F7F9FC;
-  margin-bottom: 20px;
 }
 .nav-link{
   font-size: 15px;
@@ -42,9 +41,17 @@ header {
   justify-content: center;
   align-items: center;
 }
+.container .navbar-nav ul {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+ul{
+  align-items: center;
+}
 .container {
-  max-width: 1200px;
-  width: 80%;
+  max-width: 1280px;
+  width: 90%;
 }
 .container .navbar .navbar-brand {
   color: #dc4f72 !important;
@@ -56,7 +63,8 @@ header {
   font-weight: 800;
 }
 .container .btn {
-  margin: 0 30px !important;
+  width: 100%;
+  font-size: 15px !important;
   color: #dc4f72;
   border-color: #dc4f72;
 }
@@ -100,12 +108,10 @@ header {
 }
 .container .dropdown-menu li {
   margin-bottom: 10px;
-  padding: 0 30px 0 10px;
   /* padding: 0 20px 10px; */
 }
 .container .dropdown-menu {
   padding-top: 22px;
-  transform: translate(-28%, 0);
 }
 .page {
   background-color: #f7f9fc;
@@ -362,7 +368,7 @@ header {
   background-color: #f7f9fc;
 }
 .team .main {
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
   max-width: 1280px;
 }
