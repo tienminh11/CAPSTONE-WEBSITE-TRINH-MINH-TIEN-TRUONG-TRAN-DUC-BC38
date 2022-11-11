@@ -31,6 +31,9 @@ header {
     align-items: center;
     box-shadow: 0 3px 9px rgb(0 0 0 / 5%);
 }
+header .stroke{
+    background-color: white;
+}
 
 .navbar .navbar-brand {
     margin: 0;
