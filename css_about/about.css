@@ -549,7 +549,7 @@ footer {
 }
 .footer {
   max-width: 1200px;
-  width: 85%;
+  width: 100%;
   margin: 0 auto;
 }
 .footer .footer-content .title .contact0 p {
@@ -562,9 +562,10 @@ footer {
 }
 .footer .title {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
+
 .footer .footer-content .title .contact a {
   padding: 0 20px;
   color: #000000 !important;
@@ -572,6 +573,14 @@ footer {
 }
 .footer .footer-content .title .contact a:hover {
   color: #dc4f72 !important;
+}
+@media screen and (max-width: 992) {
+  .footer .col-md-12 p {
+    text-align: center;
+  }
+  .footer .title {
+    justify-content: center !important;
+  }
 }
 @media screen and (max-width: 1200px) {
   .container {
@@ -586,8 +595,11 @@ footer {
   }
 }
 @media screen and (max-width: 992px) {
-  .footer .footer-content {
+  .footer .col-md-12 p {
     text-align: center;
+  }
+  .footer .title {
+    justify-content: center !important;
   }
   .intro9{
     width: 100%;
