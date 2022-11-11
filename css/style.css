@@ -70,7 +70,7 @@ header {
   height: 2px;
   transition: all 0.5s;
 }
-ul{
+ul {
   align-items: center;
 }
 .container .navbar-nav ul {
@@ -746,11 +746,15 @@ ul{
   background-color: #f7f9fc;
   padding-top: 10px;
 }
-
-.intro10 {
-  width: 90%;
+.sec10 hr {
+  width: 80%;
   margin: 0 auto;
-  max-width: 1280px;
+  max-width: 1200px;
+}
+.intro10 {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1200px;
   margin-top: 90px;
 
   margin-bottom: 30px;
@@ -762,7 +766,11 @@ ul{
 .intro10 .main .row .col .title input {
   margin: 20px 0;
   border: none;
-  width: 15rem;
+  background-color: #f7f9fc;
+  padding: 11px 10px;
+  padding-right: 20px;
+  border-radius: 7px;
+  width: 70%;
 }
 .intro10 .main .row .col .title a {
   display: block;
@@ -779,7 +787,7 @@ ul{
 }
 .intro10 .main .row .col.col1 .title {
   background-color: white;
-  width: 100%;
+  width: 95%;
   box-shadow: 1px 5px 8px rgba(196, 196, 196, 0.2);
   padding: 20px 30px;
 }
@@ -790,54 +798,45 @@ ul{
   background-color: #df6080;
   border: none;
 }
-hr {
-  width: 90%;
-  margin: 0 auto;
-  margin-bottom: 10px;
-  max-width: 1280px;
-}
 
 /* FOOTER */
 footer {
   background-color: #f7f9fc;
-  padding: 30px 0;
 }
 .footer {
   max-width: 1200px;
   width: 100%;
   margin: 0 auto;
 }
-.footer .footer-content .title .contact0 p {
-  font-size: 17px;
-  margin-bottom: 0 !important;
-}
-.footer .footer-content .title .contact0 a {
-  color: #000000 !important;
-  text-decoration: none;
-}
-.footer .title {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.footer p {
+  line-height: 22px;
+  color: #5a5a5a;
+  font-size: 16px;
 }
 
-.footer .footer-content .title .contact a {
-  padding: 0 20px;
-  color: #000000 !important;
-  transition: 0.3s;
+.footer p a {
+  color: #2c3038;
+  text-decoration: none;
 }
-.footer .footer-content .title .contact a:hover {
+.footer p a:hover {
+  opacity: 0.8;
   color: #dc4f72 !important;
 }
 
-
-@media screen and (max-width: 992){
-  .footer .col-md-12 p{
-text-align: center;
-  }
-  .footer .title{
-    justify-content: center !important;
-      }
-
-  
+.footer ul.social li {
+  display: inline-block;
+  margin-right: 5px;
+}
+.footer ul.social li a {
+  color: #2c3038;
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  display: inline-block;
+  border-radius: 50%;
+  text-align: center;
+}
+.footer ul.social li a:hover {
+  opacity: 0.8;
+  color: #dc4f72 !important;
 }
